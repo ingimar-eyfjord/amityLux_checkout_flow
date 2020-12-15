@@ -1,10 +1,11 @@
-import Modal from './components/modal'
+import Gate from './components/displayGate'
 function App() {
+
+
   return (
     <div className="App">
-      <Modal>
-
-      </Modal>
+      <Gate>
+      </Gate>
     </div>
   );
 }

@@ -31,7 +31,7 @@ NumberFormatCustom.propTypes = {
     onChange: PropTypes.func.isRequired
 };
 
-export default function FormattedInputs(props) {
+export function FormattedInputs(props) {
     const [valid, Validate] = useState(false)
     const [helper, help] = useState("")
     const [values, setValues] = React.useState({
@@ -83,3 +83,4 @@ export default function FormattedInputs(props) {
     );
 }
 {/* <TextField format="#### #### #### ####" onChange={e => setFormData({ ...formData, cardnum: e.target.value })} id="standard-basic" label="Card Number" /> */ }
+
